@@ -1,10 +1,10 @@
 ---
-title: "Fluctuation of Marriage License Data by Time"
-subtitle: "Impact of Covid 19 on Number of Marriages"
+title: "Toronto Citizens' Opinion on A Future Casinos"
+subtitle: "For vs. Against And General Preferences"
 author: 
   - Ying Wen Bu
-thanks: "Code and data are available at: LINK."
-date: today
+thanks: "Code and data are available at: https://github.com/annie142857/starter_folder/tree/main"
+date: 19 September 2024
 date-format: long
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
 format: pdf
@@ -19,29 +19,62 @@ bibliography: references.bib
 
 library(tidyverse)
 
-data <- read_csv(here::here("data/analysis_data/analysis_data.csv"))
+data <- read_csv(here::here("C:/Users/86189/Desktop/STA304A1/inputs/data/raw_data.csv"))
 ```
 
 
 # Introduction
 
-We use @talia, @opendatatorotno, and @rohan.
+We use @citeR, @tidyverse, @dplyr, @opendatatoronto.
 
-The remainder of this paper is structured as follows. @sec-mydatasection
+The remainder of this paper is structured as follows. 
 
 
 
 # Data {#sec-mydatasection}
 
-Some of our data is of marriage numbers (@fig-marriage), from @opendatatoronto.
 
-```{r}
-#| label: fig-marriage
-#| fig-cap: Bills of penguins
-#| echo: false
 
-data |> 
-  ggplot(aes(x = date, y = marriage_licenses)) +
-  geom_point()
-```
-The marriage numbers have been generally stable before the pandemic, although the exact numbers in different locations vary a lot.The number significantly decreased after 2020, then had a very sharp increase after 2022, exceeding the average amount before 2020. This suggests that less people got married during the pandemic, and most of them likely delayed their marriage towards the end of the lockdown, contributing to the large number of marriages at that time.
+
+
+
+# Results
+
+
+
+
+
+# Discussion
+
+## First discussion point {#sec-first-point}
+
+If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+
+## Second discussion point
+
+## Third discussion point
+
+## Weaknesses and next steps
+
+Weaknesses and next steps should also be included.
+
+\newpage
+
+\appendix
+
+# Appendix {-}
+
+
+# Additional data details
+
+# Model details {#sec-model-details}
+
+## Posterior predictive check
+
+
+
+
+\newpage
+
+
+# References
