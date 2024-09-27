@@ -1,0 +1,301 @@
+Number,FeelingNewCasino,CasinoFitToronto,onlyCasino,noCasino,casinoAndOthers,Standalone,Complex,Gender
+1,Strongly opposed,Neutral,1,1,Female,Somewhat Suitable,Somewhat Unsuitable,Female
+2,Somewhat opposed,Neutral,1,0,Female,Highly Suitable,Somewhat Suitable,Transgender
+3,Somewhat in favour,Fits Image Perfectly,0,0,Female,Strongly Unsuitable,Somewhat Unsuitable,Transgender
+4,Strongly opposed,Fits Image Perfectly,0,0,Transgender,Highly Suitable,Somewhat Suitable,Male
+5,Neutral or mixed feelings,Fits Image Somewhat,1,0,Female,Neutral or Mixed Feelings,Somewhat Unsuitable,Transgender
+6,Strongly in favour,Neutral,1,0,Transgender,Somewhat Suitable,Somewhat Unsuitable,Transgender
+7,Somewhat in favour,Fits Image Perfectly,1,0,Transgender,Highly Suitable,Neutral or Mixed Feelings,Female
+8,Somewhat opposed,Neutral,0,0,Transgender,Highly Suitable,Somewhat Unsuitable,Female
+9,Somewhat opposed,Fits Image Somewhat,1,1,Transgender,Highly Suitable,Somewhat Suitable,Female
+10,Somewhat in favour,Neutral,1,1,Transgender,Somewhat Unsuitable,Strongly Unsuitable,Male
+11,Strongly in favour,Fits Image Somewhat,1,0,Male,Somewhat Suitable,Somewhat Suitable,Female
+12,Somewhat in favour,Neutral,1,0,Male,Somewhat Unsuitable,Somewhat Suitable,Male
+13,Neutral or mixed feelings,Fits Image Perfectly,1,1,Transgender,Somewhat Unsuitable,Highly Suitable,Female
+14,Neutral or mixed feelings,Neutral,1,1,Female,Strongly Unsuitable,Somewhat Suitable,Male
+15,Strongly in favour,Fits Image Somewhat,1,0,Transgender,Strongly Unsuitable,Strongly Unsuitable,Male
+16,Neutral or mixed feelings,Does Not Fit at All,1,1,Female,Somewhat Unsuitable,Somewhat Suitable,Female
+17,Neutral or mixed feelings,Fits Image Perfectly,0,1,Female,Somewhat Unsuitable,Somewhat Unsuitable,Male
+18,Strongly in favour,Neutral,1,0,Female,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Male
+19,Somewhat in favour,Fits Image Perfectly,0,0,Male,Highly Suitable,Neutral or Mixed Feelings,Transgender
+20,Strongly in favour,Does Not Fit at All,0,1,Female,Somewhat Suitable,Somewhat Unsuitable,Transgender
+21,Somewhat in favour,Fits Image Somewhat,1,1,Transgender,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Transgender
+22,Neutral or mixed feelings,Fits Image Somewhat,1,0,Transgender,Somewhat Suitable,Neutral or Mixed Feelings,Male
+23,Strongly in favour,Neutral,0,1,Transgender,Somewhat Suitable,Strongly Unsuitable,Transgender
+24,Somewhat in favour,Does Not Fit at All,1,1,Male,Strongly Unsuitable,Strongly Unsuitable,Transgender
+25,Somewhat in favour,Does Not Fit at All,0,0,Transgender,Strongly Unsuitable,Highly Suitable,Male
+26,Strongly in favour,Fits Image Perfectly,0,0,Male,Somewhat Suitable,Somewhat Suitable,Male
+27,Somewhat opposed,Fits Image Perfectly,0,1,Transgender,Highly Suitable,Strongly Unsuitable,Female
+28,Strongly in favour,Does Not Fit at All,0,0,Male,Neutral or Mixed Feelings,Somewhat Unsuitable,Transgender
+29,Strongly in favour,Fits Image Somewhat,0,0,Transgender,Somewhat Suitable,Neutral or Mixed Feelings,Female
+30,Strongly opposed,Neutral,1,0,Female,Neutral or Mixed Feelings,Somewhat Unsuitable,Female
+31,Strongly in favour,Neutral,0,0,Transgender,Strongly Unsuitable,Somewhat Suitable,Female
+32,Somewhat in favour,Fits Image Perfectly,0,1,Transgender,Somewhat Suitable,Somewhat Suitable,Male
+33,Strongly in favour,Does Not Fit at All,1,1,Male,Strongly Unsuitable,Highly Suitable,Male
+34,Strongly in favour,Fits Image Somewhat,0,0,Transgender,Neutral or Mixed Feelings,Somewhat Unsuitable,Male
+35,Neutral or mixed feelings,Neutral,0,0,Female,Somewhat Suitable,Somewhat Suitable,Transgender
+36,Strongly opposed,Fits Image Perfectly,0,0,Transgender,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Female
+37,Somewhat opposed,Fits Image Perfectly,0,1,Female,Somewhat Unsuitable,Somewhat Suitable,Male
+38,Somewhat in favour,Fits Image Perfectly,1,1,Male,Strongly Unsuitable,Strongly Unsuitable,Female
+39,Somewhat opposed,Fits Image Perfectly,1,0,Female,Somewhat Suitable,Strongly Unsuitable,Female
+40,Somewhat in favour,Does Not Fit at All,0,1,Transgender,Strongly Unsuitable,Highly Suitable,Female
+41,Strongly opposed,Neutral,0,1,Female,Neutral or Mixed Feelings,Strongly Unsuitable,Male
+42,Strongly in favour,Fits Image Somewhat,1,0,Female,Highly Suitable,Strongly Unsuitable,Transgender
+43,Strongly in favour,Fits Image Somewhat,1,0,Female,Somewhat Unsuitable,Neutral or Mixed Feelings,Female
+44,Neutral or mixed feelings,Does Not Fit at All,1,1,Female,Strongly Unsuitable,Highly Suitable,Female
+45,Strongly opposed,Does Not Fit at All,0,1,Male,Neutral or Mixed Feelings,Strongly Unsuitable,Transgender
+46,Somewhat in favour,Fits Image Perfectly,1,1,Male,Strongly Unsuitable,Somewhat Suitable,Male
+47,Somewhat opposed,Fits Image Somewhat,0,1,Transgender,Somewhat Suitable,Strongly Unsuitable,Female
+48,Neutral or mixed feelings,Does Not Fit at All,0,1,Female,Strongly Unsuitable,Neutral or Mixed Feelings,Transgender
+49,Somewhat opposed,Fits Image Somewhat,1,1,Transgender,Neutral or Mixed Feelings,Highly Suitable,Transgender
+50,Somewhat in favour,Fits Image Perfectly,0,1,Female,Strongly Unsuitable,Somewhat Suitable,Female
+51,Somewhat in favour,Fits Image Perfectly,1,1,Transgender,Somewhat Unsuitable,Neutral or Mixed Feelings,Male
+52,Somewhat in favour,Neutral,1,1,Transgender,Somewhat Unsuitable,Strongly Unsuitable,Female
+53,Somewhat opposed,Fits Image Somewhat,1,0,Male,Neutral or Mixed Feelings,Somewhat Unsuitable,Female
+54,Strongly opposed,Fits Image Perfectly,0,0,Transgender,Highly Suitable,Neutral or Mixed Feelings,Transgender
+55,Strongly opposed,Does Not Fit at All,1,0,Female,Highly Suitable,Neutral or Mixed Feelings,Male
+56,Strongly opposed,Neutral,1,1,Female,Somewhat Unsuitable,Somewhat Unsuitable,Male
+57,Somewhat in favour,Fits Image Perfectly,0,1,Transgender,Highly Suitable,Somewhat Suitable,Transgender
+58,Somewhat opposed,Fits Image Perfectly,0,1,Transgender,Somewhat Unsuitable,Highly Suitable,Male
+59,Somewhat in favour,Fits Image Somewhat,0,1,Male,Somewhat Suitable,Neutral or Mixed Feelings,Female
+60,Somewhat opposed,Fits Image Somewhat,0,0,Male,Strongly Unsuitable,Somewhat Unsuitable,Male
+61,Strongly in favour,Fits Image Perfectly,1,1,Transgender,Highly Suitable,Somewhat Suitable,Female
+62,Neutral or mixed feelings,Fits Image Somewhat,1,0,Female,Somewhat Suitable,Somewhat Unsuitable,Female
+63,Strongly opposed,Fits Image Perfectly,0,0,Female,Somewhat Suitable,Strongly Unsuitable,Transgender
+64,Strongly opposed,Does Not Fit at All,1,1,Male,Highly Suitable,Somewhat Unsuitable,Transgender
+65,Somewhat opposed,Fits Image Somewhat,0,0,Female,Strongly Unsuitable,Somewhat Suitable,Male
+66,Neutral or mixed feelings,Fits Image Somewhat,0,1,Female,Somewhat Unsuitable,Somewhat Unsuitable,Male
+67,Neutral or mixed feelings,Fits Image Perfectly,1,1,Female,Strongly Unsuitable,Highly Suitable,Male
+68,Strongly in favour,Neutral,0,0,Transgender,Highly Suitable,Highly Suitable,Female
+69,Somewhat opposed,Does Not Fit at All,0,1,Female,Somewhat Unsuitable,Somewhat Suitable,Female
+70,Somewhat in favour,Fits Image Perfectly,0,0,Male,Highly Suitable,Strongly Unsuitable,Female
+71,Somewhat in favour,Fits Image Somewhat,0,1,Transgender,Somewhat Unsuitable,Strongly Unsuitable,Male
+72,Neutral or mixed feelings,Fits Image Somewhat,0,0,Transgender,Somewhat Suitable,Somewhat Unsuitable,Female
+73,Somewhat in favour,Fits Image Perfectly,1,0,Transgender,Highly Suitable,Neutral or Mixed Feelings,Male
+74,Strongly in favour,Neutral,1,0,Male,Strongly Unsuitable,Highly Suitable,Female
+75,Neutral or mixed feelings,Fits Image Somewhat,0,1,Transgender,Strongly Unsuitable,Neutral or Mixed Feelings,Female
+76,Strongly opposed,Fits Image Somewhat,0,0,Transgender,Strongly Unsuitable,Strongly Unsuitable,Female
+77,Somewhat in favour,Neutral,1,0,Transgender,Highly Suitable,Somewhat Suitable,Female
+78,Somewhat opposed,Fits Image Somewhat,1,0,Transgender,Strongly Unsuitable,Highly Suitable,Male
+79,Somewhat in favour,Fits Image Perfectly,1,1,Male,Highly Suitable,Somewhat Suitable,Transgender
+80,Strongly opposed,Fits Image Somewhat,1,0,Female,Neutral or Mixed Feelings,Somewhat Unsuitable,Female
+81,Somewhat opposed,Fits Image Perfectly,1,0,Male,Somewhat Unsuitable,Somewhat Unsuitable,Transgender
+82,Strongly in favour,Does Not Fit at All,0,0,Transgender,Somewhat Unsuitable,Highly Suitable,Transgender
+83,Neutral or mixed feelings,Fits Image Somewhat,1,1,Female,Neutral or Mixed Feelings,Somewhat Suitable,Transgender
+84,Strongly opposed,Does Not Fit at All,1,0,Male,Highly Suitable,Highly Suitable,Female
+85,Strongly in favour,Fits Image Somewhat,0,1,Transgender,Somewhat Suitable,Neutral or Mixed Feelings,Transgender
+86,Neutral or mixed feelings,Fits Image Perfectly,1,0,Male,Neutral or Mixed Feelings,Somewhat Unsuitable,Male
+87,Neutral or mixed feelings,Neutral,1,1,Transgender,Somewhat Unsuitable,Strongly Unsuitable,Female
+88,Somewhat opposed,Fits Image Somewhat,1,1,Male,Somewhat Unsuitable,Neutral or Mixed Feelings,Transgender
+89,Strongly opposed,Fits Image Perfectly,1,0,Male,Highly Suitable,Neutral or Mixed Feelings,Transgender
+90,Strongly in favour,Does Not Fit at All,1,0,Female,Highly Suitable,Highly Suitable,Female
+91,Somewhat opposed,Does Not Fit at All,0,0,Male,Somewhat Unsuitable,Highly Suitable,Transgender
+92,Somewhat opposed,Fits Image Somewhat,1,0,Transgender,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Male
+93,Strongly opposed,Fits Image Perfectly,0,0,Male,Somewhat Unsuitable,Neutral or Mixed Feelings,Transgender
+94,Strongly opposed,Fits Image Perfectly,1,1,Male,Strongly Unsuitable,Neutral or Mixed Feelings,Transgender
+95,Somewhat in favour,Fits Image Perfectly,0,1,Male,Somewhat Suitable,Neutral or Mixed Feelings,Male
+96,Neutral or mixed feelings,Neutral,1,1,Female,Highly Suitable,Highly Suitable,Male
+97,Somewhat opposed,Does Not Fit at All,0,0,Male,Neutral or Mixed Feelings,Highly Suitable,Female
+98,Somewhat in favour,Does Not Fit at All,1,1,Female,Somewhat Unsuitable,Neutral or Mixed Feelings,Transgender
+99,Strongly in favour,Does Not Fit at All,0,0,Male,Highly Suitable,Strongly Unsuitable,Transgender
+100,Somewhat in favour,Fits Image Perfectly,1,1,Female,Highly Suitable,Somewhat Unsuitable,Female
+101,Somewhat in favour,Does Not Fit at All,0,0,Female,Highly Suitable,Somewhat Unsuitable,Female
+102,Somewhat opposed,Fits Image Perfectly,0,1,Female,Strongly Unsuitable,Strongly Unsuitable,Female
+103,Neutral or mixed feelings,Does Not Fit at All,0,1,Male,Somewhat Suitable,Somewhat Suitable,Male
+104,Strongly in favour,Fits Image Perfectly,0,0,Female,Somewhat Suitable,Somewhat Suitable,Male
+105,Strongly in favour,Neutral,0,0,Transgender,Neutral or Mixed Feelings,Somewhat Unsuitable,Transgender
+106,Strongly in favour,Does Not Fit at All,1,0,Transgender,Somewhat Unsuitable,Somewhat Unsuitable,Transgender
+107,Somewhat opposed,Fits Image Somewhat,1,0,Female,Neutral or Mixed Feelings,Somewhat Suitable,Transgender
+108,Somewhat opposed,Fits Image Somewhat,0,1,Female,Somewhat Suitable,Somewhat Suitable,Male
+109,Strongly opposed,Does Not Fit at All,1,0,Male,Highly Suitable,Strongly Unsuitable,Female
+110,Somewhat opposed,Fits Image Perfectly,0,1,Transgender,Somewhat Unsuitable,Somewhat Suitable,Male
+111,Strongly in favour,Fits Image Somewhat,0,1,Female,Strongly Unsuitable,Highly Suitable,Male
+112,Somewhat opposed,Fits Image Somewhat,1,1,Male,Neutral or Mixed Feelings,Somewhat Unsuitable,Transgender
+113,Strongly in favour,Fits Image Perfectly,0,1,Female,Somewhat Suitable,Neutral or Mixed Feelings,Female
+114,Somewhat in favour,Does Not Fit at All,0,1,Female,Highly Suitable,Somewhat Unsuitable,Female
+115,Strongly opposed,Fits Image Perfectly,0,1,Male,Neutral or Mixed Feelings,Strongly Unsuitable,Transgender
+116,Strongly in favour,Neutral,0,1,Transgender,Highly Suitable,Strongly Unsuitable,Male
+117,Somewhat opposed,Neutral,1,0,Female,Somewhat Suitable,Somewhat Unsuitable,Transgender
+118,Strongly in favour,Fits Image Perfectly,0,1,Male,Somewhat Suitable,Somewhat Unsuitable,Female
+119,Strongly in favour,Fits Image Somewhat,0,0,Transgender,Neutral or Mixed Feelings,Somewhat Suitable,Transgender
+120,Neutral or mixed feelings,Fits Image Perfectly,1,0,Female,Somewhat Unsuitable,Highly Suitable,Male
+121,Neutral or mixed feelings,Neutral,1,0,Male,Strongly Unsuitable,Strongly Unsuitable,Transgender
+122,Strongly opposed,Fits Image Perfectly,1,0,Transgender,Somewhat Unsuitable,Highly Suitable,Male
+123,Strongly opposed,Does Not Fit at All,1,1,Male,Somewhat Unsuitable,Somewhat Suitable,Transgender
+124,Strongly in favour,Fits Image Perfectly,0,1,Male,Somewhat Unsuitable,Somewhat Unsuitable,Transgender
+125,Somewhat in favour,Does Not Fit at All,1,1,Transgender,Strongly Unsuitable,Somewhat Suitable,Female
+126,Strongly opposed,Fits Image Somewhat,1,0,Female,Highly Suitable,Somewhat Unsuitable,Transgender
+127,Strongly opposed,Does Not Fit at All,1,0,Male,Strongly Unsuitable,Somewhat Suitable,Female
+128,Strongly opposed,Fits Image Perfectly,1,0,Transgender,Somewhat Suitable,Somewhat Unsuitable,Transgender
+129,Neutral or mixed feelings,Does Not Fit at All,0,0,Male,Neutral or Mixed Feelings,Somewhat Suitable,Male
+130,Neutral or mixed feelings,Neutral,1,0,Transgender,Neutral or Mixed Feelings,Strongly Unsuitable,Male
+131,Somewhat opposed,Neutral,0,0,Female,Somewhat Suitable,Strongly Unsuitable,Male
+132,Neutral or mixed feelings,Fits Image Perfectly,0,1,Female,Neutral or Mixed Feelings,Highly Suitable,Transgender
+133,Strongly opposed,Neutral,0,1,Male,Somewhat Suitable,Highly Suitable,Male
+134,Somewhat in favour,Does Not Fit at All,0,1,Transgender,Highly Suitable,Neutral or Mixed Feelings,Female
+135,Strongly opposed,Fits Image Perfectly,0,0,Transgender,Strongly Unsuitable,Highly Suitable,Female
+136,Strongly in favour,Neutral,0,1,Female,Highly Suitable,Neutral or Mixed Feelings,Female
+137,Strongly in favour,Neutral,1,1,Transgender,Somewhat Unsuitable,Somewhat Suitable,Female
+138,Strongly opposed,Neutral,0,0,Female,Neutral or Mixed Feelings,Strongly Unsuitable,Male
+139,Somewhat in favour,Fits Image Somewhat,0,1,Transgender,Somewhat Unsuitable,Strongly Unsuitable,Male
+140,Neutral or mixed feelings,Neutral,0,1,Female,Somewhat Unsuitable,Highly Suitable,Male
+141,Neutral or mixed feelings,Fits Image Somewhat,0,0,Female,Somewhat Suitable,Somewhat Unsuitable,Male
+142,Somewhat opposed,Fits Image Somewhat,1,0,Female,Strongly Unsuitable,Somewhat Unsuitable,Female
+143,Neutral or mixed feelings,Does Not Fit at All,0,1,Male,Strongly Unsuitable,Highly Suitable,Transgender
+144,Strongly in favour,Fits Image Perfectly,0,1,Female,Somewhat Suitable,Highly Suitable,Transgender
+145,Somewhat opposed,Does Not Fit at All,1,1,Female,Strongly Unsuitable,Somewhat Unsuitable,Male
+146,Strongly opposed,Fits Image Somewhat,1,1,Transgender,Strongly Unsuitable,Highly Suitable,Male
+147,Strongly in favour,Does Not Fit at All,0,0,Female,Somewhat Unsuitable,Neutral or Mixed Feelings,Female
+148,Strongly opposed,Does Not Fit at All,1,1,Transgender,Highly Suitable,Highly Suitable,Male
+149,Strongly in favour,Neutral,0,1,Male,Somewhat Suitable,Somewhat Unsuitable,Male
+150,Somewhat in favour,Neutral,0,0,Transgender,Neutral or Mixed Feelings,Strongly Unsuitable,Male
+151,Neutral or mixed feelings,Fits Image Somewhat,1,0,Female,Strongly Unsuitable,Somewhat Unsuitable,Male
+152,Somewhat opposed,Does Not Fit at All,1,1,Transgender,Somewhat Suitable,Strongly Unsuitable,Male
+153,Strongly opposed,Fits Image Perfectly,1,1,Transgender,Strongly Unsuitable,Highly Suitable,Transgender
+154,Strongly in favour,Fits Image Perfectly,0,1,Transgender,Strongly Unsuitable,Strongly Unsuitable,Female
+155,Strongly opposed,Fits Image Somewhat,1,1,Male,Strongly Unsuitable,Neutral or Mixed Feelings,Male
+156,Strongly in favour,Fits Image Somewhat,0,1,Male,Somewhat Unsuitable,Highly Suitable,Male
+157,Somewhat in favour,Does Not Fit at All,0,1,Female,Somewhat Unsuitable,Somewhat Unsuitable,Male
+158,Neutral or mixed feelings,Neutral,1,1,Female,Neutral or Mixed Feelings,Strongly Unsuitable,Transgender
+159,Strongly opposed,Neutral,0,1,Transgender,Somewhat Suitable,Highly Suitable,Male
+160,Neutral or mixed feelings,Fits Image Perfectly,0,1,Male,Somewhat Suitable,Neutral or Mixed Feelings,Female
+161,Somewhat in favour,Does Not Fit at All,0,0,Transgender,Strongly Unsuitable,Somewhat Suitable,Transgender
+162,Strongly in favour,Fits Image Perfectly,1,1,Male,Somewhat Unsuitable,Strongly Unsuitable,Transgender
+163,Somewhat opposed,Fits Image Perfectly,1,1,Transgender,Somewhat Suitable,Somewhat Unsuitable,Female
+164,Somewhat opposed,Fits Image Somewhat,0,0,Female,Strongly Unsuitable,Strongly Unsuitable,Male
+165,Strongly opposed,Fits Image Somewhat,0,0,Female,Highly Suitable,Highly Suitable,Male
+166,Somewhat in favour,Fits Image Perfectly,1,0,Female,Highly Suitable,Strongly Unsuitable,Female
+167,Neutral or mixed feelings,Neutral,1,1,Female,Strongly Unsuitable,Neutral or Mixed Feelings,Male
+168,Somewhat opposed,Neutral,0,1,Transgender,Strongly Unsuitable,Neutral or Mixed Feelings,Female
+169,Strongly in favour,Fits Image Somewhat,0,0,Transgender,Somewhat Suitable,Strongly Unsuitable,Transgender
+170,Somewhat opposed,Fits Image Perfectly,1,1,Female,Neutral or Mixed Feelings,Somewhat Suitable,Male
+171,Neutral or mixed feelings,Fits Image Perfectly,1,1,Male,Strongly Unsuitable,Somewhat Suitable,Female
+172,Neutral or mixed feelings,Neutral,0,0,Male,Somewhat Suitable,Strongly Unsuitable,Transgender
+173,Somewhat in favour,Fits Image Somewhat,0,1,Transgender,Somewhat Suitable,Highly Suitable,Female
+174,Strongly in favour,Fits Image Somewhat,1,1,Female,Strongly Unsuitable,Somewhat Suitable,Female
+175,Somewhat opposed,Neutral,1,0,Female,Somewhat Suitable,Strongly Unsuitable,Transgender
+176,Somewhat in favour,Does Not Fit at All,1,1,Female,Neutral or Mixed Feelings,Highly Suitable,Transgender
+177,Strongly opposed,Fits Image Perfectly,0,0,Female,Highly Suitable,Strongly Unsuitable,Female
+178,Strongly in favour,Does Not Fit at All,1,0,Male,Somewhat Unsuitable,Highly Suitable,Transgender
+179,Strongly in favour,Neutral,1,1,Female,Highly Suitable,Highly Suitable,Female
+180,Strongly in favour,Fits Image Perfectly,1,0,Male,Highly Suitable,Somewhat Suitable,Transgender
+181,Neutral or mixed feelings,Fits Image Perfectly,0,0,Female,Neutral or Mixed Feelings,Highly Suitable,Male
+182,Somewhat opposed,Fits Image Perfectly,0,0,Female,Highly Suitable,Highly Suitable,Female
+183,Somewhat in favour,Fits Image Somewhat,1,1,Female,Somewhat Unsuitable,Neutral or Mixed Feelings,Transgender
+184,Strongly in favour,Does Not Fit at All,0,1,Male,Highly Suitable,Strongly Unsuitable,Male
+185,Strongly opposed,Does Not Fit at All,0,0,Transgender,Somewhat Unsuitable,Neutral or Mixed Feelings,Transgender
+186,Strongly in favour,Neutral,1,1,Male,Somewhat Unsuitable,Somewhat Unsuitable,Transgender
+187,Somewhat opposed,Does Not Fit at All,0,1,Transgender,Somewhat Suitable,Somewhat Suitable,Transgender
+188,Strongly opposed,Neutral,1,1,Male,Somewhat Unsuitable,Neutral or Mixed Feelings,Transgender
+189,Neutral or mixed feelings,Does Not Fit at All,0,0,Male,Neutral or Mixed Feelings,Strongly Unsuitable,Transgender
+190,Somewhat opposed,Fits Image Perfectly,0,0,Transgender,Somewhat Suitable,Strongly Unsuitable,Female
+191,Somewhat opposed,Fits Image Perfectly,1,1,Transgender,Neutral or Mixed Feelings,Strongly Unsuitable,Female
+192,Strongly opposed,Fits Image Perfectly,1,0,Female,Highly Suitable,Somewhat Suitable,Male
+193,Somewhat opposed,Does Not Fit at All,1,1,Male,Somewhat Suitable,Neutral or Mixed Feelings,Male
+194,Neutral or mixed feelings,Neutral,1,0,Transgender,Neutral or Mixed Feelings,Highly Suitable,Male
+195,Neutral or mixed feelings,Fits Image Perfectly,1,1,Transgender,Strongly Unsuitable,Somewhat Suitable,Male
+196,Strongly in favour,Fits Image Perfectly,0,1,Female,Somewhat Unsuitable,Strongly Unsuitable,Female
+197,Strongly opposed,Fits Image Somewhat,1,0,Female,Somewhat Suitable,Strongly Unsuitable,Transgender
+198,Strongly opposed,Fits Image Perfectly,0,1,Male,Neutral or Mixed Feelings,Somewhat Unsuitable,Female
+199,Strongly in favour,Neutral,0,0,Female,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Male
+200,Neutral or mixed feelings,Does Not Fit at All,0,0,Transgender,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Transgender
+201,Strongly in favour,Fits Image Perfectly,1,1,Transgender,Highly Suitable,Neutral or Mixed Feelings,Female
+202,Somewhat opposed,Fits Image Somewhat,0,0,Female,Neutral or Mixed Feelings,Somewhat Suitable,Female
+203,Strongly in favour,Does Not Fit at All,0,1,Female,Highly Suitable,Strongly Unsuitable,Transgender
+204,Somewhat in favour,Fits Image Somewhat,0,0,Male,Strongly Unsuitable,Strongly Unsuitable,Transgender
+205,Somewhat in favour,Fits Image Somewhat,0,0,Male,Somewhat Unsuitable,Somewhat Suitable,Male
+206,Neutral or mixed feelings,Neutral,0,1,Transgender,Somewhat Suitable,Somewhat Unsuitable,Male
+207,Neutral or mixed feelings,Fits Image Somewhat,1,0,Female,Somewhat Suitable,Somewhat Unsuitable,Male
+208,Strongly opposed,Fits Image Somewhat,0,1,Female,Neutral or Mixed Feelings,Somewhat Suitable,Male
+209,Somewhat opposed,Neutral,0,1,Female,Somewhat Unsuitable,Strongly Unsuitable,Transgender
+210,Strongly opposed,Does Not Fit at All,0,0,Male,Somewhat Unsuitable,Strongly Unsuitable,Female
+211,Somewhat in favour,Neutral,1,0,Male,Neutral or Mixed Feelings,Somewhat Unsuitable,Transgender
+212,Neutral or mixed feelings,Does Not Fit at All,0,0,Female,Strongly Unsuitable,Somewhat Suitable,Transgender
+213,Strongly in favour,Fits Image Somewhat,0,0,Transgender,Neutral or Mixed Feelings,Strongly Unsuitable,Male
+214,Neutral or mixed feelings,Fits Image Somewhat,0,0,Male,Strongly Unsuitable,Somewhat Unsuitable,Transgender
+215,Strongly in favour,Fits Image Perfectly,1,0,Female,Somewhat Suitable,Somewhat Unsuitable,Female
+216,Neutral or mixed feelings,Neutral,1,0,Male,Somewhat Unsuitable,Highly Suitable,Male
+217,Strongly opposed,Neutral,0,0,Female,Somewhat Suitable,Somewhat Unsuitable,Female
+218,Somewhat opposed,Neutral,1,0,Male,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Transgender
+219,Strongly in favour,Fits Image Perfectly,1,0,Male,Strongly Unsuitable,Somewhat Unsuitable,Male
+220,Strongly opposed,Fits Image Perfectly,0,0,Transgender,Highly Suitable,Highly Suitable,Female
+221,Strongly in favour,Neutral,0,0,Transgender,Somewhat Suitable,Somewhat Unsuitable,Female
+222,Strongly opposed,Neutral,1,0,Female,Somewhat Unsuitable,Neutral or Mixed Feelings,Transgender
+223,Neutral or mixed feelings,Fits Image Perfectly,1,0,Transgender,Somewhat Suitable,Neutral or Mixed Feelings,Male
+224,Strongly opposed,Fits Image Somewhat,0,0,Female,Somewhat Unsuitable,Strongly Unsuitable,Female
+225,Neutral or mixed feelings,Neutral,0,1,Transgender,Highly Suitable,Neutral or Mixed Feelings,Female
+226,Somewhat opposed,Does Not Fit at All,1,1,Female,Somewhat Suitable,Strongly Unsuitable,Female
+227,Somewhat opposed,Neutral,0,0,Female,Strongly Unsuitable,Neutral or Mixed Feelings,Transgender
+228,Somewhat opposed,Does Not Fit at All,1,0,Transgender,Somewhat Suitable,Somewhat Unsuitable,Transgender
+229,Strongly in favour,Fits Image Perfectly,1,0,Transgender,Highly Suitable,Neutral or Mixed Feelings,Transgender
+230,Somewhat opposed,Neutral,0,0,Female,Somewhat Unsuitable,Neutral or Mixed Feelings,Transgender
+231,Strongly in favour,Fits Image Perfectly,0,1,Female,Somewhat Suitable,Strongly Unsuitable,Female
+232,Strongly in favour,Neutral,1,0,Transgender,Strongly Unsuitable,Somewhat Suitable,Male
+233,Strongly in favour,Fits Image Somewhat,1,1,Male,Strongly Unsuitable,Somewhat Unsuitable,Female
+234,Somewhat opposed,Fits Image Somewhat,0,0,Female,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Male
+235,Neutral or mixed feelings,Neutral,1,0,Female,Neutral or Mixed Feelings,Somewhat Unsuitable,Transgender
+236,Somewhat opposed,Fits Image Somewhat,1,0,Male,Neutral or Mixed Feelings,Somewhat Unsuitable,Transgender
+237,Somewhat opposed,Neutral,1,0,Transgender,Somewhat Suitable,Somewhat Unsuitable,Female
+238,Somewhat in favour,Neutral,0,1,Female,Strongly Unsuitable,Neutral or Mixed Feelings,Female
+239,Neutral or mixed feelings,Fits Image Somewhat,1,1,Transgender,Neutral or Mixed Feelings,Somewhat Suitable,Female
+240,Somewhat in favour,Neutral,0,1,Transgender,Neutral or Mixed Feelings,Highly Suitable,Male
+241,Somewhat opposed,Fits Image Perfectly,1,1,Female,Highly Suitable,Somewhat Suitable,Female
+242,Strongly in favour,Does Not Fit at All,0,0,Female,Somewhat Unsuitable,Somewhat Unsuitable,Male
+243,Somewhat in favour,Does Not Fit at All,0,0,Male,Somewhat Unsuitable,Somewhat Suitable,Male
+244,Somewhat opposed,Neutral,1,0,Male,Somewhat Unsuitable,Strongly Unsuitable,Transgender
+245,Strongly opposed,Fits Image Somewhat,0,0,Transgender,Highly Suitable,Somewhat Suitable,Transgender
+246,Neutral or mixed feelings,Does Not Fit at All,1,1,Female,Strongly Unsuitable,Highly Suitable,Male
+247,Somewhat in favour,Does Not Fit at All,0,1,Female,Somewhat Unsuitable,Somewhat Unsuitable,Transgender
+248,Somewhat in favour,Neutral,0,1,Male,Neutral or Mixed Feelings,Somewhat Unsuitable,Transgender
+249,Strongly opposed,Neutral,1,0,Male,Somewhat Unsuitable,Highly Suitable,Transgender
+250,Neutral or mixed feelings,Fits Image Somewhat,1,0,Transgender,Neutral or Mixed Feelings,Somewhat Suitable,Female
+251,Somewhat opposed,Neutral,1,0,Male,Somewhat Unsuitable,Neutral or Mixed Feelings,Male
+252,Neutral or mixed feelings,Does Not Fit at All,0,0,Transgender,Neutral or Mixed Feelings,Strongly Unsuitable,Transgender
+253,Neutral or mixed feelings,Fits Image Somewhat,1,0,Female,Strongly Unsuitable,Somewhat Unsuitable,Female
+254,Somewhat opposed,Fits Image Somewhat,0,1,Male,Strongly Unsuitable,Somewhat Suitable,Transgender
+255,Somewhat opposed,Fits Image Perfectly,0,0,Female,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Transgender
+256,Somewhat in favour,Neutral,0,1,Transgender,Somewhat Suitable,Somewhat Suitable,Male
+257,Strongly in favour,Fits Image Perfectly,1,0,Male,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Male
+258,Somewhat in favour,Fits Image Perfectly,0,1,Transgender,Neutral or Mixed Feelings,Strongly Unsuitable,Male
+259,Strongly opposed,Fits Image Somewhat,1,1,Male,Neutral or Mixed Feelings,Highly Suitable,Transgender
+260,Somewhat in favour,Fits Image Perfectly,0,1,Transgender,Strongly Unsuitable,Highly Suitable,Transgender
+261,Strongly opposed,Neutral,0,0,Transgender,Somewhat Unsuitable,Strongly Unsuitable,Transgender
+262,Neutral or mixed feelings,Neutral,0,1,Transgender,Strongly Unsuitable,Strongly Unsuitable,Transgender
+263,Somewhat opposed,Fits Image Somewhat,0,1,Male,Strongly Unsuitable,Strongly Unsuitable,Female
+264,Strongly in favour,Does Not Fit at All,0,0,Male,Somewhat Unsuitable,Highly Suitable,Male
+265,Strongly opposed,Does Not Fit at All,0,1,Transgender,Neutral or Mixed Feelings,Highly Suitable,Male
+266,Neutral or mixed feelings,Fits Image Somewhat,0,1,Transgender,Somewhat Unsuitable,Strongly Unsuitable,Female
+267,Strongly opposed,Fits Image Somewhat,0,0,Transgender,Neutral or Mixed Feelings,Somewhat Suitable,Male
+268,Somewhat opposed,Fits Image Perfectly,0,1,Transgender,Somewhat Suitable,Strongly Unsuitable,Female
+269,Neutral or mixed feelings,Fits Image Perfectly,1,0,Transgender,Highly Suitable,Neutral or Mixed Feelings,Transgender
+270,Strongly opposed,Fits Image Somewhat,1,0,Male,Highly Suitable,Somewhat Unsuitable,Transgender
+271,Strongly in favour,Neutral,0,0,Female,Strongly Unsuitable,Neutral or Mixed Feelings,Male
+272,Somewhat in favour,Fits Image Perfectly,1,0,Male,Somewhat Unsuitable,Somewhat Unsuitable,Transgender
+273,Somewhat opposed,Fits Image Perfectly,1,1,Male,Strongly Unsuitable,Strongly Unsuitable,Male
+274,Strongly in favour,Fits Image Somewhat,1,0,Female,Strongly Unsuitable,Somewhat Unsuitable,Transgender
+275,Neutral or mixed feelings,Neutral,1,1,Female,Somewhat Suitable,Highly Suitable,Female
+276,Strongly opposed,Does Not Fit at All,1,0,Transgender,Somewhat Suitable,Strongly Unsuitable,Transgender
+277,Somewhat in favour,Fits Image Perfectly,1,1,Male,Somewhat Unsuitable,Somewhat Suitable,Transgender
+278,Strongly opposed,Does Not Fit at All,1,0,Male,Neutral or Mixed Feelings,Somewhat Unsuitable,Male
+279,Strongly in favour,Fits Image Somewhat,0,1,Male,Strongly Unsuitable,Somewhat Suitable,Male
+280,Strongly in favour,Does Not Fit at All,0,1,Female,Somewhat Unsuitable,Highly Suitable,Female
+281,Somewhat in favour,Fits Image Perfectly,1,0,Transgender,Neutral or Mixed Feelings,Somewhat Suitable,Male
+282,Strongly in favour,Does Not Fit at All,0,0,Female,Somewhat Suitable,Somewhat Unsuitable,Female
+283,Strongly opposed,Fits Image Perfectly,0,0,Male,Highly Suitable,Somewhat Suitable,Male
+284,Strongly opposed,Does Not Fit at All,0,0,Male,Neutral or Mixed Feelings,Somewhat Suitable,Male
+285,Somewhat opposed,Does Not Fit at All,0,1,Transgender,Strongly Unsuitable,Highly Suitable,Male
+286,Somewhat in favour,Fits Image Somewhat,0,1,Female,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Transgender
+287,Strongly opposed,Fits Image Perfectly,1,1,Transgender,Somewhat Unsuitable,Neutral or Mixed Feelings,Transgender
+288,Strongly in favour,Neutral,1,0,Female,Neutral or Mixed Feelings,Somewhat Unsuitable,Female
+289,Strongly in favour,Fits Image Somewhat,1,1,Male,Somewhat Suitable,Neutral or Mixed Feelings,Transgender
+290,Strongly in favour,Fits Image Somewhat,0,0,Transgender,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Transgender
+291,Strongly in favour,Neutral,0,0,Transgender,Somewhat Suitable,Strongly Unsuitable,Transgender
+292,Somewhat in favour,Neutral,0,1,Transgender,Neutral or Mixed Feelings,Somewhat Unsuitable,Male
+293,Somewhat opposed,Fits Image Perfectly,1,1,Male,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Transgender
+294,Somewhat opposed,Neutral,0,0,Male,Strongly Unsuitable,Somewhat Unsuitable,Female
+295,Strongly opposed,Does Not Fit at All,1,1,Transgender,Strongly Unsuitable,Neutral or Mixed Feelings,Female
+296,Strongly in favour,Fits Image Perfectly,1,0,Female,Neutral or Mixed Feelings,Somewhat Unsuitable,Female
+297,Strongly in favour,Fits Image Somewhat,1,1,Female,Somewhat Suitable,Somewhat Unsuitable,Male
+298,Strongly in favour,Fits Image Somewhat,0,0,Male,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Male
+299,Strongly opposed,Neutral,1,1,Transgender,Neutral or Mixed Feelings,Neutral or Mixed Feelings,Female
+300,Neutral or mixed feelings,Fits Image Somewhat,1,0,Male,Somewhat Unsuitable,Highly Suitable,Female
