@@ -19,22 +19,44 @@ bibliography: references.bib
 
 library(tidyverse)
 
-data <- read_csv(here::here("C:/Users/86189/Desktop/STA304A1/inputs/data/raw_data.csv"))
+approval <- read_csv(here::here("C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(approval).csv"), show_col_types = FALSE)
+
 ```
 
 
 # Introduction
 
-We use @citeR, @tidyverse, @dplyr, @opendatatoronto.
+We use @citeR, @tidyverse, @dplyr, @opendatatoronto, @ggplot2
 
 The remainder of this paper is structured as follows. 
 
 
 
-# Data {#sec-mydatasection}
+# Data {#sec-datasection}
 
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| label: fig-approval
+#| fig-cap: "Attitude towards A New Casino"
+#| fig-subcap: ["How you feel about a new casino?","Does a casino fit your image of the city?"]
+#| layout-ncol: 2
+#| 
+approval |>
+  ggplot(aes(x = feeling, fill = Gender)) +
+  geom_bar() +
+  theme_classic() +
+  labs(x = "Feeling about having a new casino", y = "Number of respondents")
 
+approval |>
+  ggplot(aes(x = image, fill = Gender)) +
+  geom_bar() +
+  theme_classic() +
+  labs(x = "Does it fit the image of the city", y = "Number of respondents")
+```
 
+Participants were asked on their feelings about having a new casino in Toronto, as shown in @fig-approval-1, where 1 means strongly opposed and 5 means strongly in favour.
 
 
 

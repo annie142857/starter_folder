@@ -16,7 +16,7 @@ raw_data <- read_csv("C:/Users/86189/Desktop/STA304A1/inputs/data/raw_data.csv")
 
 cleaned_data <- 
   raw_data |>
-  select(Q1_A, Q2_A, Q7_A_StandAlone, Q7_A_Integrated, Q7_A_A, Q7_A_B, Q7_A_C, Q7_A_D, Q7_A_E, Q7_A_F, Q7_A_G, Q7_A_H, Q7_A_I, Q7_A_J) |>
+  select(Q1_A, Q2_A, Q7_A_StandAlone, Q7_A_Integrated, Q7_A_A, Q7_A_B, Q7_A_C, Q7_A_D, Q7_A_E, Q7_A_F, Q7_A_G, Q7_A_H, Q7_A_I, Q7_A_J, Gender) |>
   rename(
     feeling = Q1_A,
     image = Q2_A,
@@ -34,14 +34,30 @@ cleaned_data <-
     Other = Q7_A_J,
   )
 
-cleaned_data <-
-  raw_data |>
-  janitor::clean_names() |> 
-  separate(col = time_period,
-           into = c("year", "month"),
-           sep = "-") |> 
-  mutate(date = lubridate::ymd(paste(year, month, "01", sep = "-"))
+approval <-
+  cleaned_data |>
+  select(feeling, image, Gender) |>
+  drop_na(feeling, image, Gender) |>
+  mutate(
+    feeling =
+      case_match(
+        feeling,
+        "Strongly Opposed" ~ "1",
+        "Somewhat Opposed" ~ "2",
+        "Neutral or Mixed Feelings" ~ "3",
+        "Somewhat in Favour" ~ "4",
+        "Strongly in Favour" ~ "5"
+      ),
+    image =
+      case_match(
+        image,
+        "Does Not Fit My Image At All" ~ "1.not at all",
+        "Neutral / I am Not Sure" ~ "2.neutral",
+        "Fits Image Somewhat" ~ "3.somewhat",
+        "Fits Image Perfectly" ~ "4.perfectly"
+      )
   )
 
+
 #### Save data ####
-write_csv(cleaned_data, "C:/Users/86189/Downloads/starter_folder-main (1)/starter_folder-main/data/analysis_data/clean_data.csv")
+write_csv(approval, "C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(approval).csv")
