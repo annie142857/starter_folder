@@ -10,23 +10,25 @@
 
 #### Workspace setup ####
 library(opendatatoronto)
-library(tidyverse)
-
+library(dplyr)
 
 #### Download data ####
+
 # get package
-package <- show_package("e28bc818-43d5-43f7-b5d9-bdfb4eda5feb")
+package <- show_package("427ca4cd-168a-4a37-883d-4a574277caf5")
+package
 
 # get all resources for this package
-resources <- list_package_resources("e28bc818-43d5-43f7-b5d9-bdfb4eda5feb")
+resources <- list_package_resources("427ca4cd-168a-4a37-883d-4a574277caf5")
 
 # identify datastore resources; by default, Toronto Open Data sets datastore resource format to CSV for non-geospatial and GeoJSON for geospatial resources
-datastore_resources <- filter(resources, tolower(format) %in% c('csv', 'geojson'))
+datastore_resources <- filter(resources, tolower(format) %in% c('xlsx', 'xls'))
 
 # load the first datastore resource as a sample
 data <- filter(datastore_resources, row_number()==1) %>% 
   get_resource()
 
+data <- data[[1]]
 
 #### Save data ####
-write_csv(data, "C:/Users/86189/Downloads/starter_folder-main (1)/starter_folder-main/data/raw_data/downloaded_data.csv") 
+write.csv(data, "C:/Users/86189/Desktop/STA304A1/inputs/data/raw_data.csv")

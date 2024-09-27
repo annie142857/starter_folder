@@ -14,34 +14,41 @@ library(tidyverse)
 #### Simulate data ####
 set.seed(304)
 
-# Set the number of random responses you want to generate
-number_of_responses <- 300
-
 data <- 
   tibble(
-    "Number" = 1:number_of_responses,
-    "Feeling new casino" = sample(
+    "Number" = 1:300,
+    "FeelingNewCasino" = sample(
       x = c("Strongly in favour", "Somewhat in favour", "Neutral or mixed feelings", "Somewhat opposed", "Strongly opposed"),
       size = 300,
       replace = TRUE
     ),
-    "Casino fit Toronto" = sample(
+    "CasinoFitToronto" = sample(
       x = c("Fits Image Perfectly", "Fits Image Somewhat", "Neutral", "Does Not Fit at All"),
       size = 300,
       replace = TRUE
     ),
-    "only casino" = sample(
+    "onlyCasino" = sample(
       x = c(1, 0),
       size = 300,
       replace = TRUE
     ),
-    "no casino" = sample(
+    "noCasino" = sample(
       x = c(1, 0),
       size = 300,
       replace = TRUE
     ),
-    "casino and others" = sample(
+    "casinoAndOthers" = sample(
       x = c("Male", "Female", "Transgender"),
+      size = 300,
+      replace = TRUE
+    ),
+    "Standalone" = sample(
+      x = c("Highly Suitable", "Somewhat Suitable", "Neutral or Mixed Feelings", "Somewhat Unsuitable", "Strongly Unsuitable"),
+      size = 300,
+      replace = TRUE
+    ),
+    "Complex" = sample(
+      x = c("Highly Suitable", "Somewhat Suitable", "Neutral or Mixed Feelings", "Somewhat Unsuitable", "Strongly Unsuitable"),
       size = 300,
       replace = TRUE
     ),
@@ -50,16 +57,12 @@ data <-
       size = 300,
       replace = TRUE
     ),
-              as.Date(
-      runif(
-        n = number_of_dates,
-        min = as.numeric(start_date),
-        max = as.numeric(end_date)
-      ),
-      origin = "1970-01-01"
-    ),
-    number_of_marriage = rpois(n = number_of_dates, lambda = 10)
 )
 
 #### Write_csv
-write_csv(data, file = "C:/Users/86189/Downloads/starter_folder-main (1)/starter_folder-main/data/analysis_data/simulated_data.csv")
+write_csv(data, file = "C:/Users/86189/Desktop/STA304A1/outputs/data/simulated_data.csv")
+
+#### test
+
+# Test for NAs
+all(is.na(data))
