@@ -56,9 +56,7 @@ approval |>
   labs(x = "Does it fit the image of the city", y = "Number of respondents")
 ```
 
-Participants were asked on their feelings about having a new casino in Toronto, as shown in @fig-approval-1, where 1 means strongly opposed and 5 means strongly in favour.
-
-
+Participants were asked on their feelings about having a new casino in Toronto, as shown in @fig-approval-1, where 1 means strongly opposed and 5 means strongly in favor. Almost 10000 participants strongly opposed the new casino, which is over half of the respondents. This tendency is slightly higher in women. Due to the low number of transgender participants, no observation can be drawn on their tendencies on this problem. Most of the participants have a strong opinion on this problem, and they either strongly opposed or are strongly in favor of a casino.
 
 # Results
 
