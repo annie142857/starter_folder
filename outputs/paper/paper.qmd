@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: https://github.com/annie142857/starter_folder/tree/main"
 date: 19 September 2024
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "This study takes results from a Toronto City Manager's survey on people's opinion on the construction of a casino. (results). Although the survey was conducted to incorporate people's viewpoint into the casino's construction, the results can still be used in other research to investigate people's opinions on casinos and related entertainments."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -57,6 +57,8 @@ approval |>
 ```
 
 Participants were asked on their feelings about having a new casino in Toronto, as shown in @fig-approval-1, where 1 means strongly opposed and 5 means strongly in favor. Almost 10000 participants strongly opposed the new casino, which is over half of the respondents. This tendency is slightly higher in women. Due to the low number of transgender participants, no observation can be drawn on their tendencies on this problem. Most of the participants have a strong opinion on this problem, and they either strongly opposed or are strongly in favor of a casino.
+
+Participants were then asked on whether a new casino fit their image of Toronto. This question is similar to the previous question, although it only have four options instead of five. The responses were very similar to those of the previous question, except that the "not at all" option exceeded 10000 respondents, presumably because it contained participants from the two "opposed" options from the previous question.
 
 # Results
 

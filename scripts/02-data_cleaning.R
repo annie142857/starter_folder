@@ -1,11 +1,11 @@
 #### Preamble ####
 # Purpose: Cleans the raw Casino Opinions Data
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 6 April 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Author: Annie Bu
+# Date: 19 September
+# Contact: annie.bu@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: None
+# Any other information needed? None
 
 #### Workspace setup ####
 library(janitor)
