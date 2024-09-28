@@ -59,5 +59,31 @@ approval <-
   )
 
 
+standalone <-
+  cleaned_data |>
+  select(standalone, integrated, Gender) |>
+  drop_na(standalone, integrated, Gender) |>
+  mutate(
+    standalone =
+      case_match(
+        standalone,
+        "Strongly Unsuitable" ~ "1",
+        "Somewhat Unsuitable" ~ "2",
+        "Neutral or Mixed Feelings" ~ "3",
+        "Somewhat Suitable" ~ "4",
+        "Highly Suitable" ~ "5"
+      ),
+    integrated =
+      case_match(
+        integrated,
+        "Strongly Unsuitable" ~ "1",
+        "Somewhat Unsuitable" ~ "2",
+        "Neutral or Mixed Feelings" ~ "3",
+        "Somewhat Suitable" ~ "4",
+        "Highly Suitable" ~ "5"
+      ),
+  )
+
 #### Save data ####
 write_csv(approval, "C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(approval).csv")
+write_csv(standalone, "C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(standalone).csv")
