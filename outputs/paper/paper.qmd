@@ -38,6 +38,8 @@ The remainder of this paper is structured as follows.
 
 # Data {#sec-datasection}
 
+In 2013, the City Manager of Toronto collaborated with the company DPRA to collect public opinion on the construction of a casino in Toronto. This study examines responses to several questions in this survey. The first four variables, which were plotted in @fig-approval and @fig-standalone, are responses to multiple choice problems that ask participants to evaluate the city's decisions. The last ten variables were types of entertainment for participants to decide on their appropriateness to be included in an integrated entertainment complex. They are plotted in @fig-summarytbl.
+
 ```{r}
 #| echo: false
 #| eval: true
@@ -86,7 +88,7 @@ standalone |>
   labs(x = "Suitability", y = "Number of respondents")
 ```
 
-Participants were asked to rate the suitability of a standalone casino (fig-standalone-1), and the suitability of an integrated entertainment complex casino (fig-standalone-2). In the graphs, 1 means strongly unsuitable, and 5 means strongly suitable. For both types of buildings, the majority of participants selected "strongly unsuitable". This tendency is slightly higher in women and in people who preferred to not disclose their gender. Nothing can be drawn on transgender people because their number is too low. Around 10000 participants found a standalone casino strongly unsuitable, while this number is lower than 9000 for an integrated entertainment complex, showing a slightly higher tolerance of an integrated entertainment complex.
+Participants were asked to rate the suitability of a standalone casino (fig-standalone-1), and the suitability of an integrated entertainment complex casino (fig-standalone-2). In the graphs, 1 means strongly unsuitable, and 5 means strongly suitable. For both types of buildings, the majority of participants selected "strongly unsuitable". This tendency is slightly higher in women and in people who preferred to not disclose their gender. Nothing can be drawn on transgender people because their number is too low. Around 10000 participants found a standalone casino strongly unsuitable, while this number is lower than 9000 for an integrated entertainment complex with casino, showing a slightly higher tolerance of an integrated entertainment complex.
 
 ```{r}
 #| echo: false
@@ -102,7 +104,6 @@ summarytbl |>
       entertainment,
       "no casino",
       "casino only",
-      "casino",
       "convention centre",
       "hotel",
       "culture & arts",
@@ -116,12 +117,11 @@ summarytbl |>
   ggplot(aes(x = entertainment_as_factor, y = participants)) +
   geom_bar(stat = "identity") +
   theme_classic() +
-  labs(x = "Suitability", y = "Number of respondents") +
+  labs(x = "Entertainment", y = "Number of Votes") +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
 ```
 
-Participants 
-
+Participants were asked on what should be included in a future integrated entertainment complex, as shown in @fig-summarytbl. Slightly over 10000 participants voted for no casino, which was very consistent with the number of votes that were against casino in the previous few questions. Over 1000 participants voted for casino only. Further research could take a look at the explanations for this in the survey. For the other entertainments, the highest votes are on culture & arts, theatre, and restaurant, while the lowest votes are on nightclub and other. 
 
 # Results
 

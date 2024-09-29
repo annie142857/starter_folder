@@ -84,11 +84,7 @@ standalone <-
       ),
   )
 
-integrated <-
-  cleaned_data |>
-  mutate(
-    casino = if_else(noCasino == 0, 1, 0)
-    )
+integrated <- cleaned_data
 
 # This function obtains that there are 10258 participants who chose no casino.
 summarise(integrated,
@@ -100,12 +96,6 @@ summarise(integrated,
 summarise(integrated,
           n = n(),
           .by = casinoOnly
-)
-
-# This function obtains that there are 5885 participants who chose casino
-summarise(integrated,
-          n = n(),
-          .by = casino
 )
 
 # This function obtains that there are 5796 participants who chose convention centre space.
@@ -157,8 +147,8 @@ summarise(integrated,
 )
 
 summarytbl <- tibble(
-  entertainment = c("no casino", "casino only", "casino", "convention centre", "culture & arts", "hotel", "nightclub", "restaurant", "retail", "theatre", "other"),
-  participants = c(10258, 1623, 5885, 5796, 7698, 6145, 4206, 7732, 6215, 7291, 1331),
+  entertainment = c("no casino", "casino only", "convention centre", "culture & arts", "hotel", "nightclub", "restaurant", "retail", "theatre", "other"),
+  participants = c(10258, 1623, 5796, 7698, 6145, 4206, 7732, 6215, 7291, 1331),
   )
 
 #### Save data ####
