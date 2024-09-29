@@ -84,6 +84,84 @@ standalone <-
       ),
   )
 
+integrated <-
+  cleaned_data |>
+  mutate(
+    casino = if_else(noCasino == 0, 1, 0)
+    )
+
+# This function obtains that there are 10258 participants who chose no casino.
+summarise(integrated,
+          n = n(),
+          .by = noCasino
+  )
+
+# This function obtains that there are 1623 participants who chose casino only
+summarise(integrated,
+          n = n(),
+          .by = casinoOnly
+)
+
+# This function obtains that there are 5885 participants who chose casino
+summarise(integrated,
+          n = n(),
+          .by = casino
+)
+
+# This function obtains that there are 5796 participants who chose convention centre space.
+summarise(integrated,
+          n = n(),
+          .by = conventionCentreSpace
+)
+
+# This function obtains that there are 7698 participants who chose cultural and arts facilities
+summarise(integrated,
+          n = n(),
+          .by = culturalAndArtsFacilities
+)
+
+# This function obtains that there are 6145 participants who chose hotels.
+summarise(integrated,
+          n = n(),
+          .by = hotel
+)
+
+# This function obtains that there are 4206 participants who chose nightclubs
+summarise(integrated,
+          n = n(),
+          .by = nightclubs
+)
+
+# This function obtains that there are 7732 participants who chose restaurants.
+summarise(integrated,
+          n = n(),
+          .by = Restaurants
+)
+
+# This function obtains that there are 6215 participants who chose retail
+summarise(integrated,
+          n = n(),
+          .by = Retail
+)
+
+# This function obtains that there are 7291 participants who chose theatre
+summarise(integrated,
+          n = n(),
+          .by = Theatre
+)
+
+# This function obtains that there are 1331 participants who chose other
+summarise(integrated,
+          n = n(),
+          .by = Other
+)
+
+summarytbl <- tibble(
+  entertainment = c("no casino", "casino only", "casino", "convention centre", "culture & arts", "hotel", "nightclub", "restaurant", "retail", "theatre", "other"),
+  participants = c(10258, 1623, 5885, 5796, 7698, 6145, 4206, 7732, 6215, 7291, 1331),
+  )
+
 #### Save data ####
 write_csv(approval, "C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(approval).csv")
 write_csv(standalone, "C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(standalone).csv")
+write_csv(summarytbl, "C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(summarytbl).csv")

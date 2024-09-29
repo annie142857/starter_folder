@@ -23,6 +23,8 @@ approval <- read_csv(here::here("C:/Users/86189/Desktop/STA304A1/outputs/data/cl
 
 standalone <- read_csv(here::here("C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(standalone).csv"), show_col_types = FALSE)
 
+summarytbl <- read_csv(here::here("C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(summarytbl).csv"), show_col_types = FALSE)
+
 ```
 
 
@@ -85,6 +87,41 @@ standalone |>
 ```
 
 Participants were asked to rate the suitability of a standalone casino (fig-standalone-1), and the suitability of an integrated entertainment complex casino (fig-standalone-2). In the graphs, 1 means strongly unsuitable, and 5 means strongly suitable. For both types of buildings, the majority of participants selected "strongly unsuitable". This tendency is slightly higher in women and in people who preferred to not disclose their gender. Nothing can be drawn on transgender people because their number is too low. Around 10000 participants found a standalone casino strongly unsuitable, while this number is lower than 9000 for an integrated entertainment complex, showing a slightly higher tolerance of an integrated entertainment complex.
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| label: fig-summarytbl
+#| fig-cap: "What should a future Integrated Entertainment Complex include?"
+
+summarytbl |>
+  mutate(
+    entertainment_as_factor = factor(entertainment),
+    entertainment_as_factor = fct_relevel(
+      entertainment,
+      "no casino",
+      "casino only",
+      "casino",
+      "convention centre",
+      "hotel",
+      "culture & arts",
+      "retail",
+      "nightclub",
+      "theatre",
+      "restaurant",
+      "other"
+    )
+  ) |>
+  ggplot(aes(x = entertainment_as_factor, y = participants)) +
+  geom_bar(stat = "identity") +
+  theme_classic() +
+  labs(x = "Suitability", y = "Number of respondents") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+```
+
+Participants 
+
 
 # Results
 
