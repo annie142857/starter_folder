@@ -39,6 +39,7 @@ The remainder of this paper is structured as follows.
 # Data {#sec-datasection}
 
 In 2013, the City Manager of Toronto collaborated with the company DPRA to collect public opinion on the construction of a casino in Toronto. This study examines responses to several questions in this survey. The first four variables, which were plotted in @fig-approval and @fig-standalone, are responses to multiple choice problems that ask participants to evaluate the city's decisions. The last ten variables were types of entertainment for participants to decide on their appropriateness to be included in an integrated entertainment complex. They are plotted in @fig-summarytbl.
+There is another casino survey on Open Data Toronto, and it was done in 2015, on expanding casino at Woodbine Racetrack. However, in terms of that survey, Open Data Toronto only provides the questions asked, but not the responses, so that survey cannot be investigated. During the cleaning, NA values were dropped, and the values of the last ten variables were counted using summarize and then entered into a new table.
 
 ```{r}
 #| echo: false
