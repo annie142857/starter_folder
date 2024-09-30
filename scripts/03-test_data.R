@@ -1,11 +1,11 @@
 #### Preamble ####
 # Purpose: Sanity check of the data
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Author: Ying Wen Bu
+# Date: 29 September, 2024
+# Contact: annie.bu@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: None
+# Any other information needed? None
 
 
 #### Workspace setup ####
@@ -13,10 +13,12 @@ library(tidyverse)
 
 
 #### Test data ####
-data <- read_csv("C:/Users/86189/Downloads/starter_folder-main (1)/starter_folder-main/data/analysis_data/clean_data.csv")
-
-# Test for negative numbers
-data$number_of_marriage |> min() <= 0
+approval <- read_csv("C:/Users/86189/Desktop/STA304A1/outputs/data/clean_data(approval).csv")
 
 # Test for NAs
-all(is.na(data$number_of_marriage))
+all(is.na(approval$feeling))
+all(is.na(approval$image))
+all(is.na(approval$Gender))
+
+# Test for valid values
+approval$image == c("1.not at all", "2.neutral", "3.somewhat", "4.perfectly")
