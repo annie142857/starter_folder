@@ -30,7 +30,7 @@ summarytbl <- read_csv(here::here("C:/Users/86189/Desktop/STA304A1/outputs/data/
 
 # Introduction
 
-We use @citeR, @tidyverse, @dplyr, @opendatatoronto, @ggplot2
+We use @citeR, @tidyverse, @dplyr, @opendatatoronto, @ggplot2, @rotate
 
 The remainder of this paper is structured as follows. 
 
@@ -39,7 +39,7 @@ The remainder of this paper is structured as follows.
 # Data {#sec-datasection}
 
 In 2013, the City Manager of Toronto collaborated with the company DPRA to collect public opinion on the construction of a casino in Toronto. This study examines responses to several questions in this survey. The first four variables, which were plotted in @fig-approval and @fig-standalone, are responses to multiple choice problems that ask participants to evaluate the city's decisions. The last ten variables were types of entertainment for participants to decide on their appropriateness to be included in an integrated entertainment complex. They are plotted in @fig-summarytbl.
-There is another casino survey on Open Data Toronto, and it was done in 2015, on expanding casino at Woodbine Racetrack. However, in terms of that survey, Open Data Toronto only provides the questions asked, but not the responses, so that survey cannot be investigated. During the cleaning, NA values were dropped, and the values of the last ten variables were counted using summarize and then entered into a new table.
+There is another casino survey on Open Data Toronto, and it was done in 2015, on expanding casino at Woodbine Racetrack. However, in terms of that survey, Open Data Toronto only provides the questions asked, but not the responses, so that survey cannot be investigated. During the cleaning, NA values were dropped, and the values of the last ten variables were counted using summarize and then entered into a new table, whereas the first four variables were counted during graphing. The last ten variables cannot be counted during the graphing because they are in individual columns and recorded in terms of TRUE or FALSE.
 
 ```{r}
 #| echo: false
@@ -119,10 +119,11 @@ summarytbl |>
   geom_bar(stat = "identity") +
   theme_classic() +
   labs(x = "Entertainment", y = "Number of Votes") +
+# Code from @rotate, or How to Rotate Axis Labels in ggplot2? is used in the next line
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
 ```
 
-Participants were asked on what should be included in a future integrated entertainment complex, as shown in @fig-summarytbl. Slightly over 10000 participants voted for no casino, which was very consistent with the number of votes that were against casino in the previous few questions. Over 1000 participants voted for casino only. Further research could take a look at the explanations for this in the survey. For the other entertainments, the highest votes are on culture & arts, theatre, and restaurant, while the lowest votes are on nightclub and other. 
+Participants were asked on what should be included in a future integrated entertainment complex, as shown in @fig-summarytbl, which was plotted with the help of @rotate. Slightly over 10000 participants voted for no casino, which was very consistent with the number of votes that were against casino in the previous few questions. Over 1000 participants voted for casino only. Further research could take a look at the explanations for this in the survey. For the other entertainments, the highest votes are on culture & arts, theatre, and restaurant, while the lowest votes are on nightclub and other. 
 
 # Results
 

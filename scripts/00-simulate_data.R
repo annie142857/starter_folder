@@ -2,7 +2,7 @@
 # Purpose: Simulates Casino Survey Data
 # Author: YIng Wen Bu
 # Date: 19 September, 2024
-# Contact: anni2.bu@mail.utoronto.ca
+# Contact: annie.bu@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: None
 # Any other information needed? None
@@ -14,6 +14,7 @@ library(tidyverse)
 #### Simulate data ####
 set.seed(304)
 
+# create 300 responses, with 15 variables excluding the index number.
 data <- 
   tibble(
     "Number" = 1:300,
@@ -27,6 +28,16 @@ data <-
       size = 300,
       replace = TRUE
     ),
+    "Standalone" = sample(
+      x = c("Highly Suitable", "Somewhat Suitable", "Neutral or Mixed Feelings", "Somewhat Unsuitable", "Strongly Unsuitable"),
+      size = 300,
+      replace = TRUE
+    ),
+    "Complex" = sample(
+      x = c("Highly Suitable", "Somewhat Suitable", "Neutral or Mixed Feelings", "Somewhat Unsuitable", "Strongly Unsuitable"),
+      size = 300,
+      replace = TRUE
+    ),
     "onlyCasino" = sample(
       x = c(1, 0),
       size = 300,
@@ -37,18 +48,43 @@ data <-
       size = 300,
       replace = TRUE
     ),
-    "casinoAndOthers" = sample(
-      x = c("Male", "Female", "Transgender"),
+    "Convention Centre Space" = sample(
+      x = c(TRUE, FALSE),
       size = 300,
       replace = TRUE
     ),
-    "Standalone" = sample(
-      x = c("Highly Suitable", "Somewhat Suitable", "Neutral or Mixed Feelings", "Somewhat Unsuitable", "Strongly Unsuitable"),
+    "Culture and Arts Facilities" = sample(
+      x = c(TRUE, FALSE),
       size = 300,
       replace = TRUE
     ),
-    "Complex" = sample(
-      x = c("Highly Suitable", "Somewhat Suitable", "Neutral or Mixed Feelings", "Somewhat Unsuitable", "Strongly Unsuitable"),
+    "Hotel" = sample(
+      x = c(TRUE, FALSE),
+      size = 300,
+      replace = TRUE
+    ),
+    "Nightclubs" = sample(
+      x = c(TRUE, FALSE),
+      size = 300,
+      replace = TRUE
+    ),
+    "Restaurants" = sample(
+      x = c(TRUE, FALSE),
+      size = 300,
+      replace = TRUE
+    ),
+    "Retail" = sample(
+      x = c(TRUE, FALSE),
+      size = 300,
+      replace = TRUE
+    ),
+    "Theatre" = sample(
+      x = c(TRUE, FALSE),
+      size = 300,
+      replace = TRUE
+    ),
+    "Other" = sample(
+      x = c(TRUE, FALSE),
       size = 300,
       replace = TRUE
     ),
@@ -61,8 +97,3 @@ data <-
 
 #### Write_csv
 write_csv(data, file = "C:/Users/86189/Desktop/STA304A1/outputs/data/simulated_data.csv")
-
-#### test
-
-# Test for NAs
-all(is.na(data))
